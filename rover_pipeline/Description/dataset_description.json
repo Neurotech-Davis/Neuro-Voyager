@@ -1,0 +1,10 @@
+{
+    "Name": "An open dataset for human SSVEPs in the frequency range of 1-60 Hz",
+    "Authors": [
+        "Meng Gu",
+        "Weihua Pei",
+        "Xiaorong Gao",
+        "Yijun Wang"        
+    ],
+    "HowToAcknowledge": "Meng Gu, Weihua Pei, Xiaorong Gao and Yijun Wang. An open dataset for human SSVEPs in the frequency range of 1-60 Hz. Scientific Data (Under review)",
+}

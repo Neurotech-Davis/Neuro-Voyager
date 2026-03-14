@@ -1,0 +1,29 @@
+{
+    "TaskName": "ssvep",
+    "TaskDescription": "In this study, each participant completed a single-target EEG signal acquisition task across four different sessions. Each session comprised 12 blocks, and each block consisted of 30 unique single-target stimulus trials presented in random order. The total duration of each trial was 7 s. During the first second, a red cross appeared at the center of the target as a reminder for the participant to concentrate their gaze on the target center. Subsequently, the stimulus began to flash for 5 s, during which the participant was instructed to focus on the target and avoid blinking. The red cross disappeared after the flickering stimulus ceased, and the participant took a brief 1 s break.",
+    "SamplingFrequency": 1000,
+    "Manufacturer": "Neuroscan",
+    "ManufacturersModelName": "SynAmps2",
+    "EEGChannelCount": 64,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "EEGReference": "vertex",
+    "EEGGround": "placed on central frontal cortex",
+    "PowerLineFrequency": 50,
+    "EEGPlacementScheme": "10-20 system",
+    "RecordingType": "continuous",
+    "SoftwareVersions": "SCAN",
+    "SoftwareFilters": "n/a",
+    "HardwareFilters": {
+        "notch filter": {
+            "notch frequency (Hz)": 50
+        },
+        "Highpass cutoff frequency": {
+            "passband (Hz)": 0.1
+        },
+        "Lowpass cutoff frequency": {
+            "passband (Hz)": 100
+        }
+    }
+}

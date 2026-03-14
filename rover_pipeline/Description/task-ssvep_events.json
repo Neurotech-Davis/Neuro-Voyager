@@ -1,0 +1,19 @@
+{
+    "onset": {
+        "Description": "Onset of the first frame of visual flicker presented on the screen.",
+        "Units": "ms"
+    },
+    "duration": {
+        "Description": "Duration of visual flicker presented on the screen.",
+        "Units": "s"
+    },
+    "trial": {
+        "Description": "The current trial index in a block."
+    },
+    "value": {
+        "Description": "The code (EEG Marker or Trigger value) associated with an event. The values 31-45, 91-105, 151-165, 211-225 respectively correspond to the Low-Depth stimulus paradigm in four sessions., while the values 46-60, 106-120, 166-180, 226-240 correspond to the High-Depth stimulus paradigm in four sessions."
+    },
+    "stim_frequency": {
+        "Description": "Stimulus frequency of the target of visual flicker attended by the participant."
+    }
+}

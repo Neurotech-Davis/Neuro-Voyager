@@ -1,0 +1,19 @@
+Data description for the open dataset for human SSVEPs in the frequency range of 1-60 Hz:
+
+We provide raw EEG data record in the format of Brain Imaging Data Structure (BIDS). The raw EEG data for each participant is organized within a designated folder (e.g., “sub-001”). The EEG is stored in “.edf” files, while the “.tsv” and “.json” files contain relevant information about the experiment.
+
+Another type of segmented epoch data related to stimuli was captured, with each participant's data forming an independent MATLAB MAT file. Each file was named following the convention "data_Subject index_Number of channels" (e.g., data_s1_64.mat, data_s2_64.mat, ..., data_s30_64.mat). For each subject, the data was structured as a 5-dimensional matrix (condition × channel × time point × frequency × block). Specifically, the condition dimension has a size of 2, corresponding to two distinct modulation depths (Low-Depth and High-Depth). The number of channels is 64, and the names and locations of these channels can be found in the supplementary table 2. The time point duration is 5.14 s, representing a stimulation time of 5 s and a post-stimulation duration of 0.14 s. The stimulus frequency dimension consists of 60 levels, corresponding to stimulation frequencies ranging from 1 to 60 Hz. There are 12 blocks, indicating 12 repeated stimuli for each stimulus pattern. 
+
+Note: In the EEG data for all participants, electrode connections for channels 33 ("M1') and 34 ("M2") of the 64-channel montage were identified as open circuits during the experiment.
+
+Note: The trigger values for trials are divided into two ranges, corresponding to the "Low-Depth" and "High-Depth" stimulus paradigms:
+
+Trigger values in the range of 31-45, 91-105, 151-165, and 211-225 respectively correspond to the Low-Depth stimulus paradigm in four sessions.
+Trigger values in the range of 46-60, 106-120, 166-180, and 226-240 respectively correspond to the High-Depth stimulus paradigm in four sessions.
+
+The stimulus frequencies for each session are as follows:
+
+In the first session, the stimulus frequencies include 1, 5, 9, ... up to 57 Hz.
+In the second session, the stimulus frequencies include 2, 6, 10, ... up to 58 Hz.
+In the third session, the stimulus frequencies include 3, 7, 11, ... up to 59 Hz.
+In the fourth session, the stimulus frequencies include 4, 8, 12, ... up to 60 Hz.
