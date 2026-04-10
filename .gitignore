@@ -1,0 +1,15 @@
+# Data files
+*.xdf
+*.fif
+*.mat
+*.png
+
+# OS files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Ruff cache
+.ruff_cache/
