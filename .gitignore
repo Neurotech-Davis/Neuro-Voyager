@@ -3,6 +3,8 @@
 *.fif
 *.mat
 *.png
+*.csv
+data/
 
 # OS files
 .DS_Store
