@@ -22,3 +22,16 @@ MARKER_STREAM_TYPE = "Markers"
 
 # Epoch extraction
 ONSET_SKIP_SEC = 0.5  # skip transient at stimulus onset
+
+# WASD key → frequency → Arduino command
+# Arduino expects lowercase: w/a/s/d/e (see NeuroVoyager_Arduino.ino)
+WASD_MAP = {
+    'w': (7.0,  'w'),  # Forward
+    'a': (9.0,  'a'),  # Left
+    's': (13.0, 's'),  # Backward
+    'd': (17.0, 'd'),  # Right
+}
+
+# Frequency → Arduino command
+FREQ_TO_CMD = {freq: cmd for _, (freq, cmd) in WASD_MAP.items()}
+FREQ_TO_CMD[0.0] = 'e'  # Stop (Arduino uses 'e' for stop)
